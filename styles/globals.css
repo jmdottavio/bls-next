@@ -261,7 +261,7 @@ a:hover {
 
 .main_image {
 	height: calc(100vh - 30%);
-	background-image: url("/image/Home-Lawn-Service-1.jfif");
+	background-image: url("/image/Home_1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-x: center;
@@ -525,28 +525,28 @@ a:hover {
 }
 
 .service_lawn {
-	background-image: url("/image/Lawn_Mowing_Service_1.jfif");
+	background-image: url("/image/Lawn_Mowing_Service_1.jpg");
 }
 
 .service_mulch {
-	background-image: url("/image/Mulch_Installation_Service_1.jfif");
+	background-image: url("/image/Mulch_Installation_Service_1.jpg");
 }
 
 .service_cleanup {
-	background-image: url("/image/Seasonal_Cleanup_Service_1.jfif");
+	background-image: url("/image/Seasonal_Cleanups_Service_1.jpg");
 }
 
 .service_trimming {
-	background-image: url("/image/Shrub_Hedge_Trimming_Service_1.jfif");
+	background-image: url("/image/Shrub_Hedge_Trimming_Service_1.jpg");
 	background-position-y: top;
 }
 
 .service_snow {
-	background-image: url("/image/Snow_Removal_Service_1.jfif");
+	background-image: url("/image/Snow_Removal_Service_1.jpg");
 }
 
 .service_aeration {
-	background-image: url("/image/Core_Aeration_Lawn_Overseeding_Service_1.jfif");
+	background-image: url("/image/Core_Aeration_Lawn_Overseeding_Service_1.jpg");
 }
 
 /* FOOTER */
@@ -604,11 +604,11 @@ footer {
 }
 
 .page-header-services {
-	background-image: url("/image/Services.jfif");
+	background-image: url("/image/Services.jpg");
 }
 
 .page-header-about {
-	background-image: url("/image/About.jfif");
+	background-image: url("/image/About.jpg");
 }
 
 .page-header_title {
@@ -1115,5 +1115,49 @@ footer {
 		margin: 0 auto;
 		padding: 40px 20px;
 		max-width: 80%;
+	}
+
+	/* SINGLE SERVICE */
+	.service_description {
+		display: flex;
+		max-width: 80%;
+		margin: 40px auto;
+		justify-content: space-between;
+		font-size: 1rem;
+	}
+
+	.service_description_text {
+		flex: 1;
+		max-width: 48%;
+	}
+
+	.service_description_image {
+		flex: 1;
+		max-width: 48%;
+		text-align: center;
+	}
+
+	.service_expect {
+		display: flex;
+		margin: 40px auto;
+		justify-content: space-between;
+		font-size: 1rem;
+		padding: 20px 10%;
+	}
+
+	.service_expect_title {
+		font-weight: 600;
+		font-size: 1.2rem;
+	}
+
+	.service_expect_text {
+		flex: 1;
+		max-width: 48%;
+	}
+
+	.service_expect_image {
+		flex: 1;
+		max-width: 48%;
+		text-align: center;
 	}
 }
