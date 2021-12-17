@@ -45,8 +45,8 @@ export default function About() {
 						<div className="main_about_vision">
 							<div className="main_about_vision_title font-dark-green font-serif">Our Vision</div>
 							<div className="main_about_vision_text">
-								To become one of the most trusted and preferred lawn and landscape maintenance
-								service providers in our community.
+								To become the most trusted and preferred lawn and landscape maintenance service
+								providers in our community.
 							</div>
 						</div>
 					</div>

@@ -18,7 +18,7 @@ const Header = ({ currentPage }) => {
 						<div className="header_logo_text">
 							<div className="header_logo_text_title font-serif font-white">Bechard</div>
 							<div className="header_logo_text_subtitle font-serif font-white">
-								Lawn Services LLC
+								Lawn Services, LLC
 							</div>
 						</div>
 					</div>

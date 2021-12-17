@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 const Footer = () => {
 	return (
 		<footer className="background-dark-green font-white">
 			<div className="footer_header">
 				<div className="header_logo_text">
 					<div className="header_logo_text_title font-serif">Bechard</div>
-					<div className="header_logo_text_subtitle font-serif">Lawn Services LLC</div>
+					<div className="header_logo_text_subtitle font-serif">Lawn Services, LLC</div>
 				</div>
 				<div className="header_cta_contact_phone font-numeric">
 					<a href="tel:15185906551">
@@ -14,13 +16,36 @@ const Footer = () => {
 			</div>
 			<div className="footer_social">
 				<div className="footer_social_icon">
-					<i className="fab fa-facebook fa-2x"></i>
+					<a
+						href="https://www.facebook.com/Bechard-Lawn-Services-LLC-194754461100609/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<i className="fab fa-facebook fa-2x"></i>
+					</a>
 				</div>
 				<div className="footer_social_icon">
-					<i className="fab fa-google-plus fa-2x"></i>
+					<a href="https://g.page/r/CQ2LxUFLNKVlEAE/" target="_blank" rel="noreferrer">
+						<i className="fab fa-google-plus fa-2x"></i>
+					</a>
 				</div>
 				<div className="footer_social_icon">
-					<i className="fab fa-instagram fa-2x"></i>
+					<a
+						href="https://www.instagram.com/bechardlawnservicesllc/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<i className="fab fa-instagram fa-2x"></i>
+					</a>
+				</div>
+				<div className="footer_social_icon">
+					<a
+						href="https://nextdoor.com/pages/bechard-lawn-services-city/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Image src="/image/nextdoor-icon.png" width="25" height="25" alt="Nextdoor" />
+					</a>
 				</div>
 			</div>
 			<div className="footer_info">

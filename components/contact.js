@@ -6,8 +6,8 @@ const ContactForm = () => {
 					<div className="contact_image_overlay"></div>
 					<div className="contact_image_title font-serif font-white">Request A Quote</div>
 					<div className="contact_image_text font-white">
-						Enter your info and we&apos;ll call or email you back to discuss your project a bit
-						more...
+						Please enter your info and we will call or email you back within 24 hours of receiving
+						your request. Thank you and have a great day!
 					</div>
 				</div>
 				<div className="contact_form background-white">
@@ -36,7 +36,13 @@ const ContactForm = () => {
 						</div>
 					</div>
 					<div className="contact_form_field">
-						<div className="contact_form_field_label">Note</div>
+						<div className="contact_form_field_label">How did you hear about us?</div>
+						<div className="contact_form_field_input">
+							<input type="text" name="address" id="address" />
+						</div>
+					</div>
+					<div className="contact_form_field">
+						<div className="contact_form_field_label">Please provide details of your request</div>
 						<div className="contact_form_field_input">
 							<textarea name="note" id="note" rows="3"></textarea>
 						</div>

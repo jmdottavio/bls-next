@@ -173,7 +173,7 @@ a:hover {
 	margin-left: 10px;
 	flex: 3;
 	text-transform: uppercase;
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	min-width: 200px;
 }
 
@@ -182,11 +182,11 @@ a:hover {
 }
 
 .header_logo_text_subtitle {
-	font-size: 0.9rem;
+	font-size: 0.75rem;
 	top: -2px;
 	left: 1px;
 	font-style: italic;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 }
 
 .header_content {
@@ -562,7 +562,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	margin: 20px auto 0;
-	max-width: 160px;
+	max-width: 200px;
 }
 
 .footer_social_icon {
@@ -738,7 +738,7 @@ footer {
 
 	.header_logo {
 		max-width: 20%;
-		min-width: 240px;
+		min-width: 275px;
 		padding-left: 20px;
 		display: flex;
 		align-items: center;
@@ -762,7 +762,7 @@ footer {
 		margin-left: 5px;
 		flex: 3;
 		text-transform: uppercase;
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 		min-width: 200px;
 	}
 
@@ -771,11 +771,11 @@ footer {
 	}
 
 	.header_logo_text_subtitle {
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 		top: -2px;
-		left: 2px;
+		left: 1px;
 		font-style: italic;
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 	}
 
 	.header_content {
