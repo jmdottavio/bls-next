@@ -38,13 +38,13 @@ const Footer = () => {
 						<i className="fab fa-instagram fa-2x"></i>
 					</a>
 				</div>
-				<div className="footer_social_icon">
+				<div className="footer_social_icon" style={{ marginTop: "1px" }}>
 					<a
 						href="https://nextdoor.com/pages/bechard-lawn-services-city/"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<Image src="/image/nextdoor-icon.png" width="25" height="25" alt="Nextdoor" />
+						<Image src="/image/nextdoor-icon.png" width="30" height="30" alt="Nextdoor" />
 					</a>
 				</div>
 			</div>

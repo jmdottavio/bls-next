@@ -1,6 +1,7 @@
 import Image from "next/image";
 import ServicesList from "../components/services-list";
 import Header from "../components/header";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -32,13 +33,21 @@ export default function Home() {
 							team members thrive on customer satisfaction and always aim to go above and beyond.
 						</div>
 						<div className="main_about_content_learn-more">
-							<div className="bls-button bls-button-outline bls-button-small">
-								Learn More About Us
-							</div>
+							<Link href="/about">
+								<div className="bls-button bls-button-outline bls-button-small">
+									Learn More About Us
+								</div>
+							</Link>
 						</div>
 					</div>
-					<div className="main_about_image border-radius">
-						<Image src="/image/Extra.jfif" alt="" width="800" height="600" />
+					<div className="main_about_image">
+						<Image
+							src="/image/Extra.jfif"
+							alt=""
+							width="800"
+							height="600"
+							className="border-radius"
+						/>
 					</div>
 					<div className="main_about_testimonials">
 						<div className="main_about_testimonials_content border-radius background-dark-green font-white">

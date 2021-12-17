@@ -1,13 +1,16 @@
 const ContactForm = () => {
 	return (
 		<>
-			<div className="contact">
+			<div className="contact" id="contact">
 				<div className="contact_image background-dark-green">
 					<div className="contact_image_overlay"></div>
-					<div className="contact_image_title font-serif font-white">Request A Quote</div>
+					<div className="contact_image_title font-serif font-white">
+						<a href="#contact">Request A Quote</a>
+					</div>
 					<div className="contact_image_text font-white">
 						Please enter your info and we will call or email you back within 24 hours of receiving
-						your request. Thank you and have a great day!
+						your request. <br />
+						<br /> Thank you and have a great day!
 					</div>
 				</div>
 				<div className="contact_form background-white">

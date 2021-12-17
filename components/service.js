@@ -17,6 +17,38 @@ serviceContent["lawn"].description = (
 		</p>
 	</div>
 );
+serviceContent["lawn"].singleImageSrc = "/image/Lawn_Mowing_Service_2.jpg";
+serviceContent["lawn"].gallery = (
+	<div>
+		<div>
+			<Image
+				src="/image/Lawn_Mowing_Service_3.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Lawn_Mowing_Service_4.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Lawn_Mowing_Service_5.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+	</div>
+);
 serviceContent["lawn"].expect = (
 	<div>
 		<p>
@@ -40,6 +72,29 @@ serviceContent["lawn"].expect = (
 
 serviceContent["mulch"] = {};
 serviceContent["mulch"].title = "Mulch Installation";
+serviceContent["mulch"].singleImageSrc = "/image/Mulch_Installation_Service_2.jpg";
+serviceContent["mulch"].gallery = (
+	<div>
+		<div>
+			<Image
+				src="/image/Mulch_Installation_Service_3.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Mulch_Installation_Service_4.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+	</div>
+);
 serviceContent["mulch"].description = (
 	<div>
 		<p>
@@ -92,6 +147,38 @@ serviceContent["mulch"].expect = (
 
 serviceContent["cleanup"] = {};
 serviceContent["cleanup"].title = "Seasonal Cleanups";
+serviceContent["cleanup"].singleImageSrc = "/image/Seasonal_Cleanups_Service_2.jpg";
+serviceContent["cleanup"].gallery = (
+	<div>
+		<div>
+			<Image
+				src="/image/Seasonal_Cleanups_Service_3.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Seasonal_Cleanups_Service_4.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Seasonal_Cleanups_Service_6.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+	</div>
+);
 serviceContent["cleanup"].description = (
 	<div>
 		<p>
@@ -163,6 +250,29 @@ serviceContent["cleanup"].expect = (
 
 serviceContent["trimming"] = {};
 serviceContent["trimming"].title = "Shrub & Hedge Trimming";
+serviceContent["trimming"].singleImageSrc = "/image/Shrub_Hedge_Trimming_Service_2.jpg";
+serviceContent["trimming"].gallery = (
+	<div>
+		<div>
+			<Image
+				src="/image/Shrub_Hedge_Trimming_Service_3.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Shrub_Hedge_Trimming_Service_4.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+	</div>
+);
 serviceContent["trimming"].description = (
 	<div>
 		<p>
@@ -206,6 +316,29 @@ serviceContent["trimming"].expect = (
 
 serviceContent["snow"] = {};
 serviceContent["snow"].title = "Snow Removal";
+serviceContent["snow"].singleImageSrc = "/image/Snow_Removal_Service_2.jpg";
+serviceContent["snow"].gallery = (
+	<div>
+		<div>
+			<Image
+				src="/image/Snow_Removal_Service_3.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Snow_Removal_Service_4.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+	</div>
+);
 serviceContent["snow"].description = (
 	<div>
 		<p>
@@ -250,6 +383,29 @@ serviceContent["snow"].expect = (
 
 serviceContent["aeration"] = {};
 serviceContent["aeration"].title = "Core Aeration & Lawn Overseeding";
+serviceContent["aeration"].singleImageSrc = "/image/Core_Aeration_Lawn_Overseeding_Service_2.jpg";
+serviceContent["aeration"].gallery = (
+	<div>
+		<div>
+			<Image
+				src="/image/Core_Aeration_Lawn_Overseeding_Service_3.jpg"
+				alt=""
+				width="800"
+				height="900"
+				className="border-radius"
+			/>
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image
+				src="/image/Core_Aeration_Lawn_Overseeding_Service_4.jpg"
+				alt=""
+				width="800"
+				height="600"
+				className="border-radius"
+			/>
+		</div>
+	</div>
+);
 serviceContent["aeration"].description = (
 	<div>
 		<p>
@@ -314,14 +470,16 @@ serviceContent["aeration"].expect = (
 	</div>
 );
 
-const defaultImg = (
-	<Image src="/image/Extra.jfif" alt="" width="800" height="600" className="border-radius" />
-);
+const defaultImgSrc = "/image/Extra.jfif";
 
 const defaultImgSet = (
 	<div>
-		<div>{defaultImg}</div>
-		<div style={{ marginTop: "10px" }}>{defaultImg}</div>
+		<div>
+			<Image src={defaultImgSrc} alt="" width="800" height="600" className="border-radius" />
+		</div>
+		<div style={{ marginTop: "10px" }}>
+			<Image src={defaultImgSrc} alt="" width="800" height="600" className="border-radius" />
+		</div>
 	</div>
 );
 
@@ -329,6 +487,8 @@ const Service = ({ name }) => {
 	const title = serviceContent[name].title;
 	const description = serviceContent[name].description;
 	const expect = serviceContent[name].expect;
+	const singleImageSrc = serviceContent[name].singleImageSrc;
+	const gallery = serviceContent[name].gallery;
 	const headerClassNames = `page-header page-header-services page-header-service-${name}`;
 
 	return (
@@ -339,10 +499,18 @@ const Service = ({ name }) => {
 			</div>
 			<div className="service_description">
 				<div className="service_description_text">{description}</div>
-				<div className="service_description_image">{defaultImg}</div>
+				<div className="service_description_image">
+					<Image
+						src={singleImageSrc || defaultImgSrc}
+						alt={title}
+						width="800"
+						height="600"
+						className="border-radius"
+					/>
+				</div>
 			</div>
 			<div className="service_expect background-dark-green font-white">
-				<div className="service_expect_image">{defaultImgSet}</div>
+				<div className="service_expect_image">{gallery || defaultImgSet}</div>
 				<div className="service_expect_text">
 					<div className="service_expect_title font-serif">What Our Clients Can Expect</div>
 					{expect}

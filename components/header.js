@@ -38,29 +38,44 @@ const Header = ({ currentPage }) => {
 								For A Free Quote
 							</div>
 						</div>
-						<div className="header_menu_item" style={{ marginLeft: "20px" }}>
+						<div className="header_menu_item" style={{ marginLeft: "10%" }}>
 							<div>
 								<Link href="/">home</Link>
 							</div>
-							{currentPage === "home" && (
-								<div className="separator background-dark-green" style={{ marginTop: "5px" }}></div>
-							)}
+							<div
+								className={
+									currentPage === "home"
+										? "separator background-dark-green"
+										: "separator background-grey"
+								}
+								style={{ marginTop: "5px" }}
+							></div>
 						</div>
 						<div className="header_menu_item">
 							<div>
 								<Link href="/about">about</Link>
 							</div>
-							{currentPage === "about" && (
-								<div className="separator background-dark-green" style={{ marginTop: "5px" }}></div>
-							)}
+							<div
+								className={
+									currentPage === "about"
+										? "separator background-dark-green"
+										: "separator background-grey"
+								}
+								style={{ marginTop: "5px" }}
+							></div>
 						</div>
 						<div className="header_menu_item">
 							<div>
 								<Link href="/services">services</Link>
 							</div>
-							{currentPage === "services" && (
-								<div className="separator background-dark-green" style={{ marginTop: "5px" }}></div>
-							)}
+							<div
+								className={
+									currentPage === "services"
+										? "separator background-dark-green"
+										: "separator background-grey"
+								}
+								style={{ marginTop: "5px" }}
+							></div>
 						</div>
 						<div className="header_menu_item">
 							<div className="header_cta_request-quote">

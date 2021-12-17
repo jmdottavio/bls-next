@@ -207,7 +207,6 @@ a:hover {
 }
 
 .header_cta_contact_text {
-	font-size: 1rem;
 	font-style: italic;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -260,7 +259,7 @@ a:hover {
 /* HOME MAIN IMAGE */
 
 .main_image {
-	height: calc(100vh - 30%);
+	height: calc(100vh - 150px);
 	background-image: url("/image/Home_1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -370,6 +369,7 @@ a:hover {
 	margin-top: 40px;
 
 	min-height: 750px;
+	font-size: 0.8rem;
 }
 
 .main_service_area_overlay {
@@ -447,11 +447,10 @@ a:hover {
 }
 
 .contact_image_title {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
 
 .contact_image_text {
-	font-size: 0.75rem;
 	margin-top: 20px;
 }
 
@@ -524,28 +523,33 @@ a:hover {
 	font-size: 1rem;
 }
 
-.service_lawn {
+.service_lawn,
+.page-header-service-lawn {
 	background-image: url("/image/Lawn_Mowing_Service_1.jpg");
 }
 
-.service_mulch {
+.service_mulch,
+.page-header-service-mulch {
 	background-image: url("/image/Mulch_Installation_Service_1.jpg");
 }
 
-.service_cleanup {
+.service_cleanup,
+.page-header-service-cleanup {
 	background-image: url("/image/Seasonal_Cleanups_Service_1.jpg");
 }
 
-.service_trimming {
+.service_trimming,
+.page-header-service-trimming {
 	background-image: url("/image/Shrub_Hedge_Trimming_Service_1.jpg");
-	background-position-y: top;
 }
 
-.service_snow {
+.service_snow,
+.page-header-service-snow {
 	background-image: url("/image/Snow_Removal_Service_1.jpg");
 }
 
-.service_aeration {
+.service_aeration,
+.page-header-service-aeration {
 	background-image: url("/image/Core_Aeration_Lawn_Overseeding_Service_1.jpg");
 }
 
@@ -708,7 +712,7 @@ footer {
 	}
 
 	.main_service_area_content_title {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		font-style: italic;
 		text-align: center;
 		padding: 20px;
@@ -718,7 +722,7 @@ footer {
 		display: flex;
 		justify-content: center;
 		padding-bottom: 20px;
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 	}
 
 	.services_item {
@@ -732,7 +736,7 @@ footer {
 
 @media (min-width: 769px) {
 	body {
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 	.header {
@@ -743,6 +747,7 @@ footer {
 	.header_logo {
 		max-width: 20%;
 		min-width: 275px;
+		max-width: 275px;
 		padding-left: 20px;
 		display: flex;
 		align-items: center;
@@ -882,7 +887,7 @@ footer {
 	}
 
 	.main_about_content_text {
-		font-size: 0.85rem;
+		font-size: 0.95rem;
 	}
 
 	.main_about_image {
@@ -943,7 +948,7 @@ footer {
 	}
 
 	.main_service_area_content_title {
-		font-size: 1rem;
+		font-size: 1.1rem;
 		font-style: italic;
 		text-align: center;
 		padding: 20px;
@@ -953,7 +958,7 @@ footer {
 		display: flex;
 		justify-content: center;
 		padding-bottom: 20px;
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 
 	.main_service_area_content {
