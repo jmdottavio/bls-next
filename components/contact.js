@@ -1,7 +1,7 @@
 const ContactForm = () => {
 	return (
 		<>
-			<div className="contact background-dark-green">
+			<div className="contact">
 				<div className="contact_image background-dark-green">
 					<div className="contact_image_overlay"></div>
 					<div className="contact_image_title font-serif font-white">Request A Quote</div>

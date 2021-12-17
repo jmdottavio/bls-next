@@ -418,8 +418,8 @@ a:hover {
 
 /* CONTACT */
 .contact {
-	padding: 0 0 20px;
-	margin: 40px 0;
+	padding: 0;
+	margin: 40px 0 20px;
 }
 
 .contact_image {
@@ -518,6 +518,10 @@ a:hover {
 	margin-top: 20px;
 	padding: 20px;
 	min-height: 160px;
+}
+
+.services_item_content {
+	font-size: 1rem;
 }
 
 .service_lawn {
@@ -965,6 +969,7 @@ footer {
 		border: 5px solid #006839;
 		padding: 0;
 		border-radius: 10px;
+		background-color: #006839;
 	}
 
 	.contact_image {
@@ -994,6 +999,10 @@ footer {
 		margin: 0 auto;
 		padding: 40px 20px;
 		max-width: 80%;
+	}
+
+	.services_item_content {
+		font-size: 1.3rem;
 	}
 
 	/* FOOTER */
