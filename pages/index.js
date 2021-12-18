@@ -12,7 +12,18 @@ export default function Home() {
 					<div className="main_image_overlay"></div>
 					<div className="main_image_content">
 						<div className="main_image_content_text">Your Satisfaction Is Our Motivation.</div>
-						<div className="bls-button main_image_content_cta">Contact Us</div>
+						<div
+							className="bls-button main_image_content_cta"
+							onClick={() =>
+								window.scrollTo({
+									left: 0,
+									top: document.body.offsetHeight - 1200,
+									behavior: "smooth",
+								})
+							}
+						>
+							Contact Us
+						</div>
 					</div>
 				</div>
 				<div className="main_about">

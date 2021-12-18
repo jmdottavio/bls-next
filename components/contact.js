@@ -133,7 +133,9 @@ const ContactForm = () => {
 						</div>
 						<div className="contact_form_submit">
 							<div className="bls-button bls-button-dark">
-								<button type="submit">Request A Quote</button>
+								<button type="submit" className="font-white">
+									Request A Quote
+								</button>
 							</div>
 						</div>
 					</form>

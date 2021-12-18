@@ -187,8 +187,15 @@ serviceContent["cleanup"].description = (
 			the risk of pests, insects and diseases.
 		</p>
 		<p>
-			A spring cleanup is a crucial step in reviving and preparing your yard for the upcoming
+			A Spring Cleanup is a crucial step in reviving and preparing your yard for the upcoming
 			growing season and provides a great start to promoting a healthy lawn and landscape.
+		</p>
+		<p>
+			A Fall Cleanup is also an essential step in preparing your lawn and landscape for the winter
+			months. Removal of debris will help to avoid the problems associated with leaf compaction and
+			added acidity to your soil base, which can destroy your turf and increase broad leaf weed
+			activity. In addition spores found on leaves can infect your soil and re-infect trees and
+			shrubs year after year.
 		</p>
 	</div>
 );

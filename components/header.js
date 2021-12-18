@@ -79,7 +79,18 @@ const Header = ({ currentPage }) => {
 						</div>
 						<div className="header_menu_item">
 							<div className="header_cta_request-quote">
-								<div className="bls-button bls-button-dark">Request A Quote</div>
+								<div
+									className="bls-button bls-button-dark"
+									onClick={() =>
+										window.scrollTo({
+											left: 0,
+											top: document.body.offsetHeight - 1200,
+											behavior: "smooth",
+										})
+									}
+								>
+									Request A Quote
+								</div>
 							</div>
 						</div>
 					</div>
