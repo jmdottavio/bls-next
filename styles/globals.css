@@ -171,7 +171,7 @@ main {
 	margin: 0;
 	flex: 1;
 	border-right: none;
-	padding: 5px 0;
+	padding: 5px 2.5%;
 }
 
 .header_logo img {
@@ -260,6 +260,12 @@ main {
 	position: absolute;
 	top: 20px;
 	right: 15px;
+}
+
+.header_menu_icon_close {
+	position: absolute;
+	top: 18px;
+	right: 18px;
 }
 
 .header_menu_icon_item {
@@ -704,6 +710,32 @@ footer {
 
 .about-page .services {
 	margin-top: 20px;
+}
+
+/* MOBILE MENU */
+.menu {
+	position: fixed;
+	top: 185px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+	background: rgba(0, 0, 0, 0.97);
+}
+
+.menu_content {
+	text-align: center;
+}
+
+.menu_content_item {
+	margin-top: 40px;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.menu_content_item_request {
+	max-width: 80%;
+	margin: 40px auto;
 }
 
 @media (min-width: 415px) {
@@ -1200,5 +1232,10 @@ footer {
 		flex: 1;
 		max-width: 48%;
 		text-align: center;
+	}
+
+	/* MOBILE MENU */
+	.menu {
+		display: none !important;
 	}
 }

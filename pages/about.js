@@ -1,10 +1,10 @@
 import Header from "../components/header";
 import Image from "next/image";
 
-export default function About() {
+export default function About({ menuOpen, setMenuOpen }) {
 	return (
 		<>
-			<Header currentPage="about" />
+			<Header currentPage="about" menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<main className="main about-page">
 				<div className="page-header page-header-about">
 					<div className="image_overlay"></div>

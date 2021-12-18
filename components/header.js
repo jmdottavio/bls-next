@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = ({ currentPage }) => {
+const Header = ({ currentPage, menuOpen, setMenuOpen }) => {
 	return (
 		<>
 			<header className="header background-dark-green">
@@ -109,11 +109,17 @@ const Header = ({ currentPage }) => {
 							For A Free Quote
 						</div>
 					</div>
-					<div className="header_menu_icon">
-						<div className="header_menu_icon_item background-grey"></div>
-						<div className="header_menu_icon_item background-grey"></div>
-						<div className="header_menu_icon_item background-grey"></div>
-					</div>
+					{!menuOpen ? (
+						<div className="header_menu_icon" onClick={() => setMenuOpen(!menuOpen)}>
+							<div className="header_menu_icon_item background-grey"></div>
+							<div className="header_menu_icon_item background-grey"></div>
+							<div className="header_menu_icon_item background-grey"></div>
+						</div>
+					) : (
+						<div className="header_menu_icon_close" onClick={() => setMenuOpen(!menuOpen)}>
+							<div style={{ fontSize: "2rem", fontWeight: "800" }}>X</div>
+						</div>
+					)}
 					<div className="separator background-dark-green"></div>
 					<div className="separator background-grey"></div>
 				</div>

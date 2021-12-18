@@ -3,10 +3,10 @@ import ServicesList from "../components/services-list";
 import Header from "../components/header";
 import Link from "next/link";
 
-export default function Home() {
+export default function Home({ menuOpen, setMenuOpen }) {
 	return (
 		<>
-			<Header currentPage="home" />
+			<Header currentPage="home" menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<main className="main">
 				<div className="main_image">
 					<div className="main_image_overlay"></div>

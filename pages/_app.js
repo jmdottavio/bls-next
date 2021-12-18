@@ -4,8 +4,12 @@ import Head from "next/head";
 import Footer from "../components/footer";
 import ServiceArea from "../components/service-area";
 import ContactForm from "../components/contact";
+import { useCallback, useState } from "react";
+import Menu from "../components/menu";
 
 function MyApp({ Component, pageProps }) {
+	const [menuOpen, setMenuOpen] = useState(false);
+
 	return (
 		<>
 			<Head>
@@ -19,10 +23,11 @@ function MyApp({ Component, pageProps }) {
 					rel="stylesheet"
 				/>
 			</Head>
-			<Component {...pageProps} />
+			<Component {...pageProps} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<ServiceArea />
 			<ContactForm />
 			<Footer />
+			<Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 		</>
 	);
 }
