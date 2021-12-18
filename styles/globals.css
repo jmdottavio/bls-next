@@ -156,6 +156,14 @@ a:hover {
 .header {
 	display: flex;
 	flex-direction: column;
+	position: fixed;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+
+main {
+	padding-top: 185px;
 }
 
 .header_logo {
@@ -757,9 +765,15 @@ footer {
 		font-size: 18px;
 	}
 
-	.header {
+	.header > div {
+		display: flex;
+		flex-wrap: wrap;
 		flex-direction: row;
 		justify-content: space-between;
+	}
+
+	main {
+		padding-top: 72px;
 	}
 
 	.header_logo {
