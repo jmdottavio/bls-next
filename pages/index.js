@@ -33,10 +33,9 @@ export default function Home({ menuOpen, setMenuOpen }) {
 							Lawn Mowing, Mulch Installation, Snow Removal &amp; More...
 						</div>
 						<div className="main_about_content_text">
-							With the goal of becoming the most trusted and preferred lawn and landscape
-							maintenance service provider in our community, Bechard Lawn Services provides clients
-							with the best possible experience and high-quality services and solutions, while
-							bringing professionalism to the industry.
+							With a goal of becoming recognized as a green industry leader within our community,
+							Bechard Lawn Services provides clients with the best possible experience and
+							high-quality services and solutions, while bringing professionalism to the industry.
 							<br />
 							<br />
 							Our client-focused values and willingness to listen and respond to feedback has helped

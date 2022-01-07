@@ -526,6 +526,22 @@ main {
 	padding: 0 20px;
 }
 
+.services_text {
+	min-width: 100%;
+	text-align: center;
+	padding: 0 5%;
+}
+
+.services_text_title {
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin-top: 40px;
+}
+
+.services_text_content {
+	margin-top: 10px;
+}
+
 .services_item {
 	flex: 1;
 	display: flex;
@@ -1211,27 +1227,22 @@ footer {
 	}
 
 	.service_expect {
-		display: flex;
-		margin: 40px auto;
+		margin: 20px auto;
 		justify-content: space-between;
 		font-size: 1rem;
 		padding: 20px 10%;
 	}
 
-	.service_expect_title {
-		font-weight: 600;
-		font-size: 1.2rem;
-	}
-
-	.service_expect_text {
-		flex: 1;
-		max-width: 48%;
-	}
-
 	.service_expect_image {
-		flex: 1;
-		max-width: 48%;
 		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.service_expect_image_item {
+		max-width: calc(50% - 40px);
+		margin: 40px 20px 0;
 	}
 
 	/* MOBILE MENU */

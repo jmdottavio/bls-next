@@ -37,16 +37,16 @@ export default function About({ menuOpen, setMenuOpen }) {
 						<div className="main_about_mission">
 							<div className="main_about_mission_title font-dark-green font-serif">Our Mission</div>
 							<div className="main_about_mission_text">
-								To provide our valued clients with the best possible experience and high-quality
-								services while providing our amazing team of employees with opportunities for growth
-								and goal attainment
+								We strive to provide our valued clients with the best possible experience and
+								high-quality services.
 							</div>
 						</div>
 						<div className="main_about_vision">
 							<div className="main_about_vision_title font-dark-green font-serif">Our Vision</div>
 							<div className="main_about_vision_text">
-								To become the most trusted and preferred lawn and landscape maintenance service
-								providers in our community.
+								To be recognized as a green industry leader within our community by continuing to
+								deliver excellent customer service and adapting our processes to match our
+								client&apos;s needs.
 							</div>
 						</div>
 					</div>

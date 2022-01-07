@@ -42,6 +42,14 @@ const ServicesList = () => {
 						<div className="services_item_content">Core Aeration &amp; Lawn Overseeding</div>
 					</div>
 				</Link>
+				<div className="services_text">
+					<div className="services_text_title font-serif">What Our Clients Can Expect From Us</div>
+					<div className="services_text_content">
+						Services will be completed diligently and in good, professional, and first-class manner,
+						while using well-maintained, professional grade equipment and workmanship to complete
+						services in a safe and timely manner.
+					</div>
+				</div>
 			</div>
 		</>
 	);
