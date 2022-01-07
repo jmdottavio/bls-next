@@ -500,29 +500,31 @@ const Service = ({ name }) => {
 
 	return (
 		<>
-			<div className={headerClassNames}>
-				<div className="image_overlay"></div>
-				<div className="page-header_title font-white font-serif">{title}</div>
-			</div>
-			<div className="service_description">
-				<div className="service_description_text">{description}</div>
-				<div className="service_description_image">
-					<Image
-						src={singleImageSrc || defaultImgSrc}
-						alt={title}
-						width="800"
-						height="600"
-						className="border-radius"
-					/>
+			<main>
+				<div className={headerClassNames}>
+					<div className="image_overlay"></div>
+					<div className="page-header_title font-white font-serif">{title}</div>
 				</div>
-			</div>
-			<div className="service_expect background-dark-green font-white">
-				<div className="service_expect_image">{gallery || defaultImgSet}</div>
-				{/* <div className="service_expect_text">
+				<div className="service_description">
+					<div className="service_description_text">{description}</div>
+					<div className="service_description_image">
+						<Image
+							src={singleImageSrc || defaultImgSrc}
+							alt={title}
+							width="800"
+							height="600"
+							className="border-radius"
+						/>
+					</div>
+				</div>
+				<div className="service_expect background-dark-green font-white">
+					<div className="service_expect_image">{gallery || defaultImgSet}</div>
+					{/* <div className="service_expect_text">
 					<div className="service_expect_title font-serif">What Our Clients Can Expect</div>
 					{expect}
 				</div> */}
-			</div>
+				</div>
+			</main>
 		</>
 	);
 };

@@ -597,6 +597,11 @@ main {
 	background-image: url("/image/Core_Aeration_Lawn_Overseeding_Service_1.jpg");
 }
 
+.service_description_text {
+	text-align: center;
+	padding: 0 20px;
+}
+
 /* FOOTER */
 footer {
 	padding: 20px 20px 100px;
@@ -1224,6 +1229,10 @@ footer {
 		flex: 1;
 		max-width: 48%;
 		text-align: center;
+	}
+
+	.service_description_text {
+		text-align: left;
 	}
 
 	.service_expect {
