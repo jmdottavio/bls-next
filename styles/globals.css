@@ -297,12 +297,23 @@ main {
 
 .main_image_overlay {
 	background: #000;
-	opacity: 0.45;
+	opacity: 1;
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	animation: fadein 450ms normal forwards ease-in;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0.45;
+	}
 }
 
 .main_image_content {

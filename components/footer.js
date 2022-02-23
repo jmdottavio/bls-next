@@ -44,7 +44,12 @@ const Footer = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<Image src="/image/nextdoor-icon.png" width="30" height="30" alt="Nextdoor" />
+						<Image
+							src="/image/nextdoor-icon.png"
+							width="30"
+							height="30"
+							alt="Nextdoor"
+						/>
 					</a>
 				</div>
 			</div>
@@ -53,8 +58,9 @@ const Footer = () => {
 					<a href="mailto:bechardlawnservices@yahoo.com">bechardlawnservices@yahoo.com</a>
 				</div>
 				<div className="footer_info_address">
-					<span className="font-numeric">1564</span> Green Island, NY,
-					<span className="font-numeric">12183</span>
+					<span className="font-numeric">P.O. Box 1564</span>
+					<br /> Green Island, NY
+					<span className="font-numeric">&nbsp;12183</span>
 				</div>
 			</div>
 		</footer>

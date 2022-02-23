@@ -5,7 +5,7 @@ const ServiceArea = () => {
 				<div className="main_service_area_overlay"></div>
 				<div className="main_service_area_content border-radius background-grey font-white">
 					<div className="main_service_area_content_title">
-						Proudly Servicing The Captial Region
+						We Are Proud to Serve the Following Areas Within the Capital District
 					</div>
 					<div className="main_service_area_content_text">
 						<div className="main_service_area_content_text_column">
