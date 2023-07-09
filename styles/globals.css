@@ -399,33 +399,10 @@ main {
 }
 
 /* SERVICE AREA */
-
-.main_service_area {
-	background-image: url("/image/Service-Area-Mobile.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: top 225px right 0;
-	margin-top: 40px;
-
-	min-height: 750px;
-	font-size: 0.8rem;
-}
-
-.main_service_area_overlay {
-	position: absolute;
-	top: 225px;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background: #231f20;
-	opacity: 0.25;
-}
-
 .main_service_area_content {
-	position: relative;
-	margin: 0px 20px;
-
-	opacity: 0.9;
+	font-size: 0.8rem;
+    max-width: 80%;
+    margin: 40px auto 0;
 }
 
 .main_service_area_content_title {
@@ -447,12 +424,6 @@ main {
 
 .main_service_area_content_text_column div {
 	margin: 10px 0 0;
-}
-
-.main_service_area_image img {
-	position: relative;
-	width: 100%;
-	height: auto;
 }
 
 /* CONTACT */
@@ -771,32 +742,6 @@ footer {
 }
 
 @media (min-width: 415px) {
-	.main_service_area {
-		background-image: url("/image/Service-Area.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position-x: center;
-		background-position-y: center;
-
-		min-height: 350px;
-	}
-
-	.main_service_area_overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background: #231f20;
-		opacity: 0.25;
-	}
-
-	.main_service_area_content {
-		position: absolute;
-		top: 15%;
-		left: 50%;
-	}
-
 	.main_service_area_content_title {
 		font-size: 0.9rem;
 		font-style: italic;
@@ -1020,32 +965,6 @@ footer {
 	}
 
 	/* SERVICE AREA */
-
-	.main_service_area {
-		background-image: url("/image/Service-Area.png");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position-x: center;
-		background-position-y: center;
-
-		min-height: 400px;
-	}
-
-	.main_service_area_overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background: #231f20;
-		opacity: 0.25;
-	}
-
-	.main_service_area_content {
-		position: absolute;
-		top: 15%;
-		left: 50%;
-	}
 
 	.main_service_area_content_title {
 		font-size: 1.1rem;
