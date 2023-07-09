@@ -1,6 +1,7 @@
 {
   "name": "bls-next",
   "private": true,
+  "author": "Justin D'Ottavio <jmdottavio@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
